@@ -1,10 +1,9 @@
-# CLXCB
+# CLXCB - XCB Specification for X11 protocol for Common Lisp
 
 <p align="center">
   <a href="screenshots/clxcb.jpeg">
     <img src="screenshots/clxcb.jpeg" alt="CLXCB - XCB Bindings for Common Lisp" width="520" />
   </a><br/>
-  <em>XCB Specification for X11 protocol for Common Lisp</em>
 </p>
 
 A pure Common Lisp client implementation of the X11 protocol, closely following
