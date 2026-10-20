@@ -88,7 +88,7 @@ you need additionally:
 
 No C compiler is needed.
 
-For the authorization I use [clXau](https://github.com/amno1/clxau), which grew
+For the authorization I use [clxau](https://github.com/amno1/clxau), which grew
 up with and out of CLXCB.  I started using auth.lisp from CLX, but I ended up
 refactoring it out in its own library and complementing with features it lacked.
 
@@ -261,19 +261,19 @@ name as a keyword, and `xcb:close-connection`:
 
 ## Companion Repositories
 
-### [clxau](https://github.com/amno1/clxau)
+### [clxau](https://github.com/amno1/clxau "clxau")
 
 For authorization with an X connection.
 
-### [clxrm](https://github.com/amno1/clxrm)
+### [clxrm](https://github.com/amno1/clxrm "clxrm")
 
 For loading xrdb resources.
 
-### [clxcb-truetype](https://github.com/amno1/clxcb-truetype)
+### [clxcb-truetype](https://github.com/amno1/clxcb-truetype "clxcb-truetype")
 
 A port of clx-truetype to CLXCB for nicer text rendering.
 
-### [cl-garnet](https://github.com/amno1/cl-garnet/tree/cl-garnet-xcb)
+### [cl-garnet](https://github.com/amno1/cl-garnet/tree/cl-garnet-xcb "cl-garnet")
 
 ![Garnet screenshots](screenshots/garnet-demos.png)
 
@@ -296,7 +296,7 @@ because it might reveal a bug in CLXCB; let me know.  Of course, I am not a
 Garnet developer, or in any association with them; I have just hacked it a bit
 and used it as a playground to test XCB bindings.
 
-### XAct (not published yet)
+### [XAct](https://github.com/amno1/xact "xact")
 
 A small demo framework modelled after some principles in Garnet and Adam & Eve
 (anyone remembers Adobe's project?).  I needed a little demo framework to not
@@ -329,7 +329,7 @@ not as applications you should actually use on an everyday basis.
 The demos' own README says how to run each one, with their options, and
 gives their license and copyright information.
 
-### clxcb-generator (not published yet)
+### [clxcb-generator](https://github.com/amno1/clxcb-generator "clxcb-generator")
 
 A code generator that generates CLXCB's Lisp protocol code from the XML
 protocol descriptions.  You only need it during development, to
