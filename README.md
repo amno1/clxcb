@@ -1,5 +1,12 @@
 # CLXCB
 
+<p align="center">
+  <a href="screenshots/clxcb.jpeg">
+    <img src="screenshots/clxcb.jpeg" alt="CLXCB - XCB Bindings for Common Lisp" width="520" />
+  </a><br/>
+  <em>XCB Specification for X11 protocol for Common Lisp</em>
+</p>
+
 A pure Common Lisp client implementation of the X11 protocol, closely following
 XCB specification and libxcb implementation.
 
@@ -23,7 +30,7 @@ once, as with libxcb.
 
 **Local and remote displays:** `$DISPLAY` is parsed as libxcb parses it;
 Unix-domain sockets and TCP (for example `ssh -X`) both work, with Xauthority
-cookies found through [clXau](https://github.com/amno1/clxau).
+cookies found through [clxau](https://github.com/amno1/clxau).
 
 **Errors as conditions**, and checked requests (`request-check`,
 `with-checked-requests`) for requests without a reply.
@@ -76,7 +83,7 @@ What you need is:
 
 - ASDF (and GNU make) to build the library
 - `uiop` for some portable constructs
-- clXau for connection authorization (see below)
+- clxau for connection authorization (see below)
 
 If you are happy with SBCL only, this is all you need.  For a portable version
 you need additionally:
@@ -115,7 +122,7 @@ If you cloned to your drive, symlink the clones into Quicklisp's
 ```bash
 cd ~/quicklisp/local-projects
 ln -s /path/to/cloned/clxcb
-ln -s /path/to/cloned/clXau
+ln -s /path/to/cloned/clxau
 ```
 
 Or clone it directly into `local-projects`. Then load it from the repl:
