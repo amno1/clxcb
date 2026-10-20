@@ -1,4 +1,4 @@
-# CLXCB - XCB Specification for X11 protocol for Common Lisp
+# CLXCB - XCB Specification for X11 protocol in Common Lisp
 
 <p align="center">
   <a href="screenshots/clxcb.jpeg">
