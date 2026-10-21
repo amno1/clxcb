@@ -309,7 +309,7 @@ A small demo framework modelled after some principles in Garnet and Adam & Eve
 repeat myself, so that is it.  Don't use it for anything serious, it is just my
 playground.  If you do, you are on your own.
 
-### clxcb-demos (not published yet)
+### [clxcb-demos](https://github.com/amno1/clxcb-demos "clxcb-demos")
 
 The best way to debug something is to use it yourself.  Both for testing
 purposes and honestly, for my own curiosity and learning, I wrote a few small
@@ -318,21 +318,20 @@ the demos, I don't guarantee anything; they can be SBCL-only, buggy or incomplet
 See them more as an interesting pastime, curiosa, and learning artifacts,
 not as applications you should actually use on an everyday basis.
 
-- **demo-1**:  Quickstart: connect and print a report on the server.
-- **demo-2**:  A basic window echoing mouse and keyboard events.
-- **demo-3**:  Turtle graphics, draw coloured lines and shapes.
-- **demo-4**:  A slideshow of off-screen pixmaps.
-- **demo-5**:  XEyes (SHAPE, RENDER).
-- **demo-6**:  XClock (RENDER, SYNC, TrueType text).
-- **demo-7**:  XSnow, on the root window or a transparent overlay.
-- **demo-8**:  XRoach, roaches creeping all over your desktop.
-- **demo-9**:  XNeko, a shaped cat that chases the pointer.
-- **demo-10**: Pop-up menus with xcb-menu (oldXMenu).
-- **demo-11**: An antialiased RGB/HSV colour picker.
-- **demo-12**: An image viewer (only PNG).
-- **demo-13**: A thermometer converting between Kelvin, Celsius and Fahrenheit.
+- [**demo-1**](https://github.com/amno1/clxcb-demos/tree/main/demo-1):  Quickstart: connect and print a report on the server.
+- [**demo-2**](https://github.com/amno1/clxcb-demos/tree/main/demo-2):  A basic window echoing mouse and keyboard events.
+- [**demo-3**](https://github.com/amno1/clxcb-demos/tree/main/demo-3):  Turtle graphics, draw coloured lines and shapes.
+- [**demo-4**](https://github.com/amno1/clxcb-demos/tree/main/demo-4):  A slideshow of off-screen pixmaps.
+- [**demo-5**](https://github.com/amno1/clxcb-demos/tree/main/demo-5):  XEyes (SHAPE, RENDER).
+- [**demo-6**](https://github.com/amno1/clxcb-demos/tree/main/demo-6):  XClock (RENDER, SYNC, TrueType text).
+- [**demo-7**](https://github.com/amno1/clxcb-demos/tree/main/demo-7):  XSnow, on the root window or a transparent overlay.
+- [**demo-8**](https://github.com/amno1/clxcb-demos/tree/main/demo-8):  XRoach, roaches creeping all over your desktop.
+- [**demo-9**](https://github.com/amno1/clxcb-demos/tree/main/demo-9):  XNeko, a shaped cat that chases the pointer.
+- [**demo-10**](https://github.com/amno1/clxcb-demos/tree/main/demo-10): An antialiased RGB/HSV colour picker.
+- [**demo-11**](https://github.com/amno1/clxcb-demos/tree/main/demo-11): An image viewer (only PNG).
+- [**demo-12**](https://github.com/amno1/clxcb-demos/tree/main/demo-12): A thermometer converting between Kelvin, Celsius and Fahrenheit.
 
-The demos' own README says how to run each one, with their options, and
+The [demos' own README](https://github.com/amno1/clxcb-demos#readme) says how to run each one, with their options, and
 gives their license and copyright information.
 
 ### [clxcb-generator](https://github.com/amno1/clxcb-generator "clxcb-generator")
