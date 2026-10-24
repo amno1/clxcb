@@ -275,9 +275,9 @@ For authorization with an X connection.
 
 For loading xrdb resources.
 
-### [clxcb-truetype](https://github.com/amno1/clxcb-truetype "clxcb-truetype")
+### [Runes](https://github.com/amno1/runes "runes") (formerly clxcb-truetype)
 
-A port of clx-truetype to CLXCB for nicer text rendering.
+Pure Common Lisp TrueType / OpenType font engine with an XCB RENDER backend for antialiased text rendering.
 
 ### [cl-garnet](https://github.com/amno1/cl-garnet/tree/cl-garnet-xcb "cl-garnet")
 

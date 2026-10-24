@@ -1,4 +1,4 @@
-;;;; tests/benchmark-put-image.lisp — Benchmark xcb:put-image-chunked vs xcb-truetype:put-image-chunked
+;;;; tests/benchmark-put-image.lisp — Benchmark xcb:put-image-chunked vs runes/xcb:put-image-chunked
 ;;;; Copyright (C) 2026  Arthur Miller <arthur.miller@live.com>
 ;;;; SPDX-License-Identifier: MIT
 ;;;; See the LICENSE file for the full license text.
@@ -23,7 +23,7 @@
 
 (eval-when (:compile-toplevel :load-toplevel :execute)
   (asdf:load-system :clxcb)
-  (asdf:load-system :clxcb-truetype))
+  (asdf:load-system :runes/xcb))
 
 (defmacro measure ((&key (warmup 1) (runs 5) description) &body body)
   `(let ((desc ,description)
@@ -109,7 +109,7 @@
        (xcb::create-gc conn gc pixmap 0)
 
        (format t "~%================================================================~%")
-       (format t "END-TO-END BENCHMARKS: xcb:put-image-chunked vs xcb-truetype~%")
+       (format t "END-TO-END BENCHMARKS: xcb:put-image-chunked vs runes/xcb~%")
        (format t "Connection max request length: ~D words (~D bytes)~%"
                (xcb:conn-maximum-request-length conn)
                (* 4 (xcb:conn-maximum-request-length conn)))
